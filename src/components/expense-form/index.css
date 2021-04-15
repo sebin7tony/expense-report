@@ -1,0 +1,16 @@
+.expense-form {
+  display: flex;
+  flex-direction: column;
+  flex: 1 2 20px;
+  padding: 20px;
+  background-color: rgb(216, 213, 213);
+}
+
+.description-field {
+  height: auto;
+}
+
+.button {
+  margin-top: 10px;
+  width: 150px;
+}

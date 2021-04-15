@@ -1,0 +1,23 @@
+.card {
+  height: 250px;
+  width: 250px;
+  background-color: rgb(214, 214, 214);
+  border-radius: 8px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.payments {
+  min-height: 50px;
+  display: flex;
+  background-color: rgb(141, 139, 139);
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.description {
+  flex: 2;
+  padding: 10px;
+}
