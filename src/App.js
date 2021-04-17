@@ -8,7 +8,7 @@ function App() {
         <div>Expense report</div>
       </header>
       <MainContainer />
-      <footer></footer>
+      <footer className="footer"></footer>
     </div>
   );
 }

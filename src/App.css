@@ -23,3 +23,21 @@
 .App-link {
   color: #61dafb;
 }
+
+#root,
+body,
+html {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  min-height: 50px;
+  background-color: #61dafb;
+}

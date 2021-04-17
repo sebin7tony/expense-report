@@ -1,10 +1,10 @@
 import React from "react"
 import "./index.css"
 
-const TotalBanner= ({total}) => {
+const TotalBanner= ({total,error}) => {
     return(
         <section className="total">
-            {total}
+            {error ? `Max value ${total} reached` : `Total expense amount ${total}`}
         </section>
     );
 }

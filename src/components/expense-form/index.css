@@ -1,9 +1,12 @@
 .expense-form {
   display: flex;
   flex-direction: column;
-  flex: 1 2 20px;
   padding: 20px;
-  background-color: rgb(216, 213, 213);
+  width: 80%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+  margin: 30px auto 10px auto;
 }
 
 .description-field {
@@ -13,4 +16,15 @@
 .button {
   margin-top: 10px;
   width: 150px;
+}
+
+.expense-form-area {
+  background-color: rgb(235, 235, 235);
+  flex: 1 2 20px;
+  border-left: 1px solid rgb(196, 196, 196);
+}
+
+.text-area {
+  height: 50px;
+  width: 90%;
 }

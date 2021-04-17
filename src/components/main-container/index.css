@@ -1,13 +1,12 @@
 .main-container {
-  height: 100vh;
   background-color: white;
   display: flex;
   flex-direction: column;
+  flex: 2;
 }
 
 .expense-area {
-  flex: 3 1;
-  height: 100%;
+  flex: 3;
   background-color: white;
   display: flex;
 }

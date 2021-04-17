@@ -1,20 +1,22 @@
 .card {
   height: 250px;
   width: 250px;
-  background-color: rgb(214, 214, 214);
+  background-color: rgb(204, 220, 241);
   border-radius: 8px;
   margin-left: 20px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .payments {
   min-height: 50px;
   display: flex;
-  background-color: rgb(141, 139, 139);
   align-items: center;
   justify-content: space-between;
   padding: 10px;
+  border-top: 1px solid rgb(149, 163, 180);
 }
 
 .description {

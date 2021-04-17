@@ -1,5 +1,7 @@
 .expense-list {
   flex: 3;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   margin: 10px;
 }
